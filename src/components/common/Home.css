@@ -1,0 +1,21 @@
+.home-container {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+  -moz-box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+  box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+}
+
+#home-col {
+  background-image: url("../../images/bg-home.png");
+  border-radius: 10px;
+}
+
+#home-col h4 {
+  color: white;
+}
+
+#home-col h1 {
+  font-size: 48px;
+  margin-top: 22px;
+  font-weight: 900;
+}
