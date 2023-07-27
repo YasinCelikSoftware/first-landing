@@ -29,13 +29,13 @@ function Navi (args) {
               <NavLink href="#about-us">About Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#home">Services</NavLink>
+              <NavLink href="#our-services">Services</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#home">Portfolio</NavLink>
+              <NavLink href="#our-portfolio">Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#home">Contact Us</NavLink>
+              <NavLink href="#testimonial">Contact Us</NavLink>
             </NavItem>
 
           </Nav>

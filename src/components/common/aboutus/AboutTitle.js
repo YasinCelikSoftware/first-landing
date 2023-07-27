@@ -11,7 +11,7 @@ export default class AboutTitle extends Component {
         <p>
           Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Dicta excepturi nostrum facere illum dignissimos, amet quibusdam. Suscipit ratione in consequuntur.
         </p>
-        <SeeMoreButton />
+        <SeeMoreButton content="See More" />
       </Col>
     );
   }

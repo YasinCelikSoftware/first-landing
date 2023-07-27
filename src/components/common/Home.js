@@ -13,7 +13,7 @@ export default class Home extends Component {
               <div className="text-center mx-auto my-5">
                 <h4>WE ARE</h4>
                 <h1>Creative Digital<br /> Agency</h1>
-                <KnowMoreButton />
+                <KnowMoreButton content="Know More" />
               </div>
             </Col>
           </Row>

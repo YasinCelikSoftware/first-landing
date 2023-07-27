@@ -1,0 +1,27 @@
+.testimonial-container {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+  -moz-box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+  box-shadow: 0px 0px 60px 16px rgba(206, 206, 206, 0.6);
+  background-color: #ffffff;
+}
+.testimonial-row {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fd8070;
+}
+
+.swiper-pagination-bullets {
+  bottom: -5px !important;
+  text-align: end;
+}
+
+#testimonial .swiper-slide {
+  background: url("../../../images/quote-1.png"), url("../../../images/quote-2.png");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100px, 100px;
+}
