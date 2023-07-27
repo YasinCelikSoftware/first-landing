@@ -2,3 +2,18 @@
   color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
 }
+.px-10 {
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+nav {
+  transition: 0.5s ease;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
