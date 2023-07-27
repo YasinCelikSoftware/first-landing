@@ -6,15 +6,17 @@
 }
 
 .km-button,
-.km-button:hover {
-  background-color: white;
-  color: #fd8070;
+.km-button:hover,
+.km-button:active {
+  background-color: white !important;
+  color: #fd8070 !important;
   border: 2px solid transparent;
 }
 
 .sm-button,
-.sm-button:hover {
-  background-color: #fd8070;
-  color: white;
+.sm-button:hover,
+.sm-button:active {
+  background-color: #fd8070 !important;
+  color: white !important;
   border: 2px solid transparent;
 }
