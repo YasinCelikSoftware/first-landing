@@ -8,6 +8,7 @@ import p2 from '../../../images/portfolio2.jpg';
 import p3 from '../../../images/portfolio3.jpg';
 import p4 from '../../../images/portfolio4.jpg';
 import p5 from '../../../images/portfolio5.jpg';
+import './OurPortfolio.css';
 
 // import p2 from '../../../images/images';
 // import p3 from '../../../images/images';
@@ -21,49 +22,59 @@ export default class Slide extends Component {
     return (
       <Swiper spaceBetween={100} slidesPerView={3}>
         <SwiperSlide>
-          <img
-            src={p1}
-            alt="a"
-            width={'300px'}
-            style={{borderRadius: '10px'}}
-          />
-
+          <div className="slide-div">
+            <img
+              src={p1}
+              alt="a"
+              width={'300px'}
+              style={{borderRadius: '10px'}}
+            />
+            <div className="overlay" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={p2}
-            alt="a"
-            width={'300px'}
-            style={{borderRadius: '10px'}}
-          />
-
+          <div className="slide-div">
+            <img
+              src={p2}
+              alt="a"
+              width={'300px'}
+              style={{borderRadius: '10px'}}
+            />
+            <div className="overlay" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={p3}
-            alt="a"
-            width={'300px'}
-            style={{borderRadius: '10px'}}
-          />
-
+          <div className="slide-div">
+            <img
+              src={p3}
+              alt="a"
+              width={'300px'}
+              style={{borderRadius: '10px'}}
+            />
+            <div className="overlay" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={p4}
-            alt="a"
-            width={'300px'}
-            style={{borderRadius: '10px'}}
-          />
-
+          <div className="slide-div">
+            <img
+              src={p4}
+              alt="a"
+              width={'300px'}
+              style={{borderRadius: '10px'}}
+            />
+            <div className="overlay" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={p5}
-            alt="a"
-            width={'300px'}
-            style={{borderRadius: '10px'}}
-          />
-
+          <div className="slide-div">
+            <img
+              src={p5}
+              alt="a"
+              width={'300px'}
+              style={{borderRadius: '10px'}}
+            />
+            <div className="overlay" />
+          </div>
         </SwiperSlide>
 
       </Swiper>

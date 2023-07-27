@@ -8,7 +8,7 @@ export default class OurPortftolio extends Component {
     return (
       <section id="our-portfolio">
         <Container className="our-portfolio-container mt-5">
-          <Row className="p-5 our-portfolio-row">
+          <Row className="our-portfolio-row p-5">
             <Col>
               <h5><span className="line-title" />Our Portfolio</h5>
               <h2>Best Our Portfolio</h2>
